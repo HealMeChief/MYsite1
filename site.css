@@ -1,0 +1,69 @@
+.JsPrim{
+    display: grid;
+    justify-content: center;
+    box-shadow: 100px 100px 100px 100px rgba(0, 0, 0, 0.3);
+    background-color: rgb(69, 69, 204);
+}
+.AfterLogoText{
+    position: absolute;
+    width: 20%;
+    left: 280px;
+    text-decoration: underline;
+    letter-spacing: 1.5px;
+    border: 5px solid black;
+    height: 170px;
+    padding: 10px 15px;
+    background-color: white;
+}
+.Jija_Pic1{   
+    position: absolute;
+    width: 1000px;
+    height: 100px;   
+}
+.obtekatel{
+    position: absolute;
+    left: 500px;
+    padding-left: 0%, 2px ;
+}
+.cat-button{
+    position: absolute;
+    right: 600px;
+    top: 8px;
+    width: 200px;
+    height: 200px;
+    background-image: url('./02252e85fef76ab07d9536d39056cead.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.color-button {
+    background-color: rgb(162, 0, 255); /* Исходный цвет кнопки */
+    color: white; /* Цвет текста */
+    padding: 10px 20px; /* Отступы */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Закругление углов */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+    position: absolute;
+    top: 87px;
+    right: 300px;
+}
+.color-button:active{
+    background-color: brown;
+    
+}
+.color-button:hover{
+    background-color: deeppink;
+   
+}
+.color-button:focus {
+    outline: 2px solid blue;
+}
+.color-button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+.color-button::before {
+    content: "▶ ";
+}
